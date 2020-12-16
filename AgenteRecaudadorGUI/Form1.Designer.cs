@@ -76,9 +76,9 @@ namespace AgenteRecaudadorGUI
             // Agentetxt
             // 
             this.Agentetxt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Agentetxt.Location = new System.Drawing.Point(188, 65);
+            this.Agentetxt.Location = new System.Drawing.Point(160, 65);
             this.Agentetxt.Name = "Agentetxt";
-            this.Agentetxt.Size = new System.Drawing.Size(598, 203);
+            this.Agentetxt.Size = new System.Drawing.Size(498, 203);
             this.Agentetxt.TabIndex = 1;
             // 
             // btonguardar
@@ -103,16 +103,16 @@ namespace AgenteRecaudadorGUI
             // agenteBD
             // 
             this.agenteBD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.agenteBD.Location = new System.Drawing.Point(838, 65);
+            this.agenteBD.Location = new System.Drawing.Point(729, 65);
             this.agenteBD.Name = "agenteBD";
-            this.agenteBD.Size = new System.Drawing.Size(598, 203);
+            this.agenteBD.Size = new System.Drawing.Size(498, 203);
             this.agenteBD.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(316, 33);
+            this.label1.Location = new System.Drawing.Point(257, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(290, 29);
             this.label1.TabIndex = 4;
@@ -122,7 +122,7 @@ namespace AgenteRecaudadorGUI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1030, 33);
+            this.label2.Location = new System.Drawing.Point(869, 33);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(191, 29);
             this.label2.TabIndex = 5;
@@ -279,7 +279,7 @@ namespace AgenteRecaudadorGUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(1370, 514);
+            this.ClientSize = new System.Drawing.Size(1245, 514);
             this.Controls.Add(this.BtnTotal);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.TxtTotal);
